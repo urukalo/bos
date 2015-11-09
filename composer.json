@@ -1,0 +1,20 @@
+{
+    "name": "vendor/bout-space-fleet-commander",
+    "description": " bout-space fleet commander.",
+    "authors": [
+        {
+            "name": "milan urukalo",
+            "email": "urukalo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "bos\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.0.*",
+        "phpunit/phpunit-skeleton-generator": "2.0.x-dev"
+    }
+}
